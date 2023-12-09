@@ -10,6 +10,9 @@ const Checkout = () => {
             <h3>Price</h3>
             <h3>Remove</h3>
         </div>
+        <div>
+          
+        </div>
         
     </div>
   )
