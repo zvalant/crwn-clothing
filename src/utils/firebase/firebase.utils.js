@@ -70,7 +70,8 @@ export const getCategoriesAndDocuments = async ()=>{
         accumulator[title.toLowerCase()] = items;
         return accumulator;
     },{})
-
+    console.log(categoryMap);
+    return categoryMap;
 }
 
 export const createUserDocumentFromAuth = async (userAuth,additionInformation={}) => {
