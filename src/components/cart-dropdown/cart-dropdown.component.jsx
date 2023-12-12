@@ -11,7 +11,6 @@ const CartDropDown = () => {
   const navigate = useNavigate();
   const handleGoToCheckout = ()=>{
     navigate("/checkout");
-
   }
   return (
     <div className = "cart-dropdown-container">
